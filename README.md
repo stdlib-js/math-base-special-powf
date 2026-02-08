@@ -62,6 +62,11 @@ where `b` is the **base** and `x` is the **exponent**.
 To use in Observable,
 
 ```javascript
+powf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-powf@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-powf/tags). For example,
+
+```javascript
 powf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-powf@v0.1.1-umd/browser.js' )
 ```
 
@@ -74,7 +79,7 @@ var powf = require( 'path/to/vendor/umd/math-base-special-powf/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-powf@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-powf@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -133,7 +138,7 @@ v = powf( NaN, NaN );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-powf@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-powf@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
